@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- login page -->
+    <section class="login-page">
+      <!-- login page nav -->
+      <nav class="login-page-nav">
+        <ul>
+          <li class="brand">
+            <a href="index.html"><i class="fas fa-dove"></i> Home</a>
+          </li>
+          <li><a href="#">Language: English</a></li>
+        </ul>
+      </nav>
+      <!-- end of login page nav -->
+      <!-- login -->
+      <div class="login">
+        <div class="login-content">
+          <h2>Log in to Twirrer</h2>
+          <form class="login-form">
+            <input
+              type="text"
+              placeholder="Phone, email, or username"
+              class="user-info"
+              required
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              class="password"
+              required
+            />
+            <div>
+              <button type="button" class="login-form-btn">Log In</button>
+              <input
+                type="checkbox"
+                class="login-form-checkbox"
+                id="check"
+                id="remember-me-checkbox"
+              />
+              <label for="check">Remember me</label>
+
+              <a href="Forgot_Password.html">Forgot password?</a>
+            </div>
+          </form>
+        </div>
+        <footer class="login-footer">
+          <p>New to Twirrer? <a href="sign_up.html">Sign up now</a></p>
+        </footer>
+      </div>
+      <!-- end of login -->
+
+      <!-- login modal -->
+      <div class="login-modal">
+        <i class="fas fa-times"></i>
+        <p>
+          The username and password you entered did not match our records.
+          Please double check and try again
+        </p>
+      </div>
+      <!-- end of login modal -->
+    </section>
+    <!-- end of login page -->
+    <!-- <script src="script.js"></script> -->
+    <script src="js/loginPage.js"></script>
+  </body>
+</html>

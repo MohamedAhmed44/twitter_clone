@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main page -->
+    <section class="main-page">
+      <!-- left -->
+      <div class="left">
+        <div class="left-content">
+          <div>
+            <i class="fas fa-search"></i>
+            <h3 class="left-content-heading">Find your interests</h3>
+          </div>
+          <div>
+            <i class="fas fa-user-friends"></i>
+            <h3 class="left-content-heading">
+              Explore what people are talking about
+            </h3>
+          </div>
+          <div>
+            <i class="fas fa-comment"></i>
+            <h3 class="left-content-heading">Join the people</h3>
+          </div>
+        </div>
+      </div>
+      <!-- end of left -->
+      <!-- right -->
+      <div class="right">
+        <form class="right-content-form">
+          <div>
+            <input
+              type="text"
+              id="email"
+              class="user-info"
+              placeholder="Phone, email, or username"
+              required
+            />
+            <label style="display: none; color: red" id="email-error"></label>
+
+            <input
+              type="password"
+              id="password"
+              class="password"
+              placeholder="Password"
+              required
+            />
+            <label
+              style="display: none; color: red; margin-left: 25rem"
+              id="password-error"
+            ></label>
+
+            <label
+              style="margin-left: 24rem; margin-top: 2rem"
+              class="label-forget"
+              >Forgot Password?</label
+            >
+          </div>
+          <button type="button" class="btn-top" onclick="validateForm()">
+            Log in
+          </button>
+        </form>
+        <script></script>
+        <div class="middle-content">
+          <i class="fas fa-dove"></i>
+          <h1>Explore what's hapenning in the world</h1>
+          <h4>Join Twitter today</h4>
+          <button type="button" class="sign-up main-btn">Sign Up</button>
+          <button type="button" class="log-in main-btn">Log In</button>
+        </div>
+      </div>
+      <!-- end of right -->
+      <!-- footer -->
+      <footer class="main-page-footer">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Apps</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Status</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">&copy; 2019 Twirrer</a></li>
+        </ul>
+      </footer>
+      <!-- end of footer -->
+    </section>
+    <!-- end of main page -->
+    <!-- <script src="mainpage.js"></script> -->
+    <script src="js/index_js.js"></script>
+  </body>
+</html>
